@@ -1,0 +1,33 @@
+﻿@model IEnumerable<ReviewListModel>
+
+<div class="text-center">
+    <h2>Отзывы</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Откуда</th>
+                <th>Имя</th>
+                <th>Текст</th>
+                <th>Тип оценки</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var rev in Model)
+            {
+                <tr>
+                    <td>@rev.Object</td>
+                    <td>@rev.Name</td>
+                    <td>@rev.ReviewText</td>
+                    <td>@rev.ReviewType</td>
+                    <td>
+                        <a asp-action="Details" asp-route-id="@rev.Id">Details</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<a asp-action="Index" asp-controller="Home">Назад</a>
+<a asp-action="Display" asp-controller="TelegramBot" style="margin-left:90%">Обновить</a>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QualityControl", "QualityControl.csproj", "{25E8C965-D6AB-4DAE-B046-CDA49435AF47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25E8C965-D6AB-4DAE-B046-CDA49435AF47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25E8C965-D6AB-4DAE-B046-CDA49435AF47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25E8C965-D6AB-4DAE-B046-CDA49435AF47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25E8C965-D6AB-4DAE-B046-CDA49435AF47}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1B786D4-D85A-494F-AFE7-647DD3C6A6DE}
+	EndGlobalSection
+EndGlobal
